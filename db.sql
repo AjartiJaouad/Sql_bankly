@@ -78,3 +78,5 @@ SELECT * FROM accounts ORDER BY balance ASC;
 
 SELECT * FROM transactions ORDER BY amount DESC;
  
+
+ SELECT * FROM transactions ORDER BY amount DESC LIMIT 5;
