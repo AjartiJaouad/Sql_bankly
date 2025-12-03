@@ -90,3 +90,4 @@ SELECT accounts.account_id, customers.full_name AS customer_name, advisors.full_
 FROM accounts
 JOIN customers ON accounts.customer_id = customers.customer_id
 JOIN advisors ON accounts.advisor_id = advisors.advisor_id;
+
