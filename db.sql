@@ -61,3 +61,15 @@ SELECT account_number FROM accounts;
 
 SELECT * FROM transactions;
 
+SELECT * FROM accounts WHERE CAST(balance AS DECIMAL(10,2)) > 10000;
+
+
+SELECT * FROM accounts WHERE CAST(balance AS DECIMAL(10,2)) <= 0;
+
+
+SELECT * FROM transactions WHERE transaction_type = 'debit';
+
+SELECT * FROM transactions WHERE transaction_type = 'credit';
+
+SELECT * FROM transactions WHERE account_id = 1;
+
