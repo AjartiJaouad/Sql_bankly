@@ -32,3 +32,6 @@ CREATE TABLE transactions (
     account_id INT,
     FOREIGN KEY (account_id) REFERENCES accounts(account_id)
 );
+
+
+ INSERT INTO customers (full_name ,email ,phone) VALUES ('farouk','farouk@gmail.com','068794562'),('ahmed','ahmed@gmail.com','0562556285'),('jamal','jamlo@gmail.com','06558585885'),('farid','farid@gmail.com','0568745222');
