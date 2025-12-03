@@ -73,3 +73,8 @@ SELECT * FROM transactions WHERE transaction_type = 'credit';
 
 SELECT * FROM transactions WHERE account_id = 1;
 
+
+SELECT * FROM accounts ORDER BY balance ASC;
+
+SELECT * FROM transactions ORDER BY amount DESC;
+ 
