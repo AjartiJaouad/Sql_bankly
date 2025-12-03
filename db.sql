@@ -83,3 +83,10 @@ SELECT * FROM transactions ORDER BY amount DESC;
 
 
 SELECT * FROM transactions ORDER BY transaction_date DESC;
+
+
+
+SELECT accounts.account_id, customers.full_name AS customer_name, advisors.full_name AS advisor_name, accounts.balance
+FROM accounts
+JOIN customers ON accounts.customer_id = customers.customer_id
+JOIN advisors ON accounts.advisor_id = advisors.advisor_id;
