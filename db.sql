@@ -46,3 +46,18 @@ VALUES
 UPDATE customers
 SET phone = '0698765432'
 WHERE customer_id = 1;
+
+
+SELECT * FROM customers;
+
+
+SELECT full_name, email FROM customers;
+
+
+SELECT * FROM accounts;
+
+SELECT account_number FROM accounts;
+
+
+SELECT * FROM transactions;
+
